@@ -4,4 +4,4 @@ Le projet consiste à pouvoir générer le time code des prestations de chaque a
 
 ** Utilisez le GPU de google colab pour gagner du temps de calcul lorsqu'on fait de l'OCR **
 
-fait Syphax Bourennani et Remy Harle
+fait par Syphax Bourennani et Remy Harle
