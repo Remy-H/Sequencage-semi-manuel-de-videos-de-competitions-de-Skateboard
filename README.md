@@ -1,7 +1,25 @@
 # Sequencage semi manuel de videos de competitions de Skateboard
 
-Le projet consiste à pouvoir générer le time code des prestations de chaque athlète à partir de vidéos de compétitions de skateboard pour ensuite créer un tableau à partir de ces times codes.
+**Projet Computer Vision** : Extraction automatique des performances skateurs depuis vidéo SLS World Championship 2021 (OCR + timelines).
+
+## Objectif
+**Analyser automatiquement** une vidéo de compétition skateboard (SLS Super Crown World Championship) pour extraire :  
+- **Timestamps** de chaque prestation (Run + Tricks 1-6)  
+- **Noms skateurs** (Jagger Eaton, Nyjah Huston, etc.)  
+- **Clips vidéo individuels** par athlète/prestation  
+
+
+## Technologies
+OpenCV (extraction frames)  
+EasyOCR (reconnaissance texte noms/scores)  
+MoviePy (clips vidéo)  
+Pandas (DataFrame timelines)  
+PIL (traitement images)  
+
 
 ** Utilisez le GPU de google colab pour gagner du temps de calcul lorsqu'on fait de l'OCR **
 
-fait par Syphax Bourennani et Remy Harle
+## Auteur
+**Rémy Harlé**  
+*Computer Vision - OCR Sport Analysis*
+
